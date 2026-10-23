@@ -1,0 +1,44 @@
+
+HELP.md
+
+# Build files
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Database files - do not upload to GitHub
+data/
+*.mv.db
+*.trace.db
+*.lock.db
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# STS / Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VS Code
+.vscode/
